@@ -1,0 +1,26 @@
+{
+  "name": "projeto-final-mongo-reprograma",
+  "version": "1.0.0",
+  "description": "Projeto final Backend da  plataforma Elas por Elas",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "Mariana Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marianaliima/projetoFinal"
+  },
+  "homepage": "",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13",
+    "nodemon": "^2.0.7"
+  }
+}
