@@ -2,9 +2,8 @@
 
 ## Sobre o Projeto
 
-O **FavMovies** é um sistema de gerenciamento de catálogos de filmes dos estudios Marvel, Ghibli e Pixar. 
+A API **Elas por Elas** tem como objetivo criar um ambiente onde mulheres vítimas de violências domésticas podem procurar um local de apoio mais próximo de sua residência e também obter um tratamento psicológico gratuito ou com preço popular. 
 
-Onde receberemos cadastros de títulos(filmes e séries) referenciando cada estúdio criador. 
 
 
 
