@@ -5,6 +5,8 @@ const local = require('./src/routes/locais.routes')
 const profissional = require('./src/routes/profissionais.routes')
 const db = require('./src/data/dbConfig.js')
 
+const PORT = process.env.PORT || 9090
+
 
 const app = express()
 app.use(express.json())
@@ -22,4 +24,6 @@ app.use('/locais', local)
 app.use('/profissionais', profissional)
 
 
-app.listen(9090, ()=> console.log('Servidor rodando na porta 9090'))
+app.listen(PORT, ()=>{
+    console.log(`Servidor rodando na porta ${PORT}`)
+})
