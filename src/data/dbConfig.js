@@ -2,7 +2,6 @@ require('dotenv').config()
 
 const mongoose = require('mongoose')
 
-//const varAmbiente =  process.env.MONGO_URL_PROD
 
 const connect = async () =>{
    try {
