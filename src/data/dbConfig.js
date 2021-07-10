@@ -2,10 +2,12 @@ require('dotenv').config()
 
 const mongoose = require('mongoose')
 
+const MONGO_URL = process.env.MONGO_URI_PROD
+
 
 const connect = async () =>{
    try {
-    await  mongoose.connect(process.env.MONGO_URL_PROD, {
+    await  mongoose.connect(MONGO_URL, {
 
         useNewUrlParser: true,
         useUnifiedTopology: true
