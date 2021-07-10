@@ -1,4 +1,5 @@
 const express = require('express')
+const cors = require('cors')
 const cadastro = require('./src/routes/cadastros.routes')
 const local = require('./src/routes/locais.routes')
 const profissional = require('./src/routes/profissionais.routes')
@@ -7,6 +8,7 @@ const db = require('./src/data/database.js')
 
 const app = express()
 app.use(express.json())
+app.use(cors())
 
 
 // conectar db 
